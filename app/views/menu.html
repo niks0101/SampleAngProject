@@ -1,0 +1,23 @@
+<div class="container-fluid">
+    <div class="row row-offcanvas row-offcanvas-left">
+        <div class="row-offcanvas row-offcanvas-right">
+            <div class="col-xs-6 col-sm-2 col-md-2 sidebar-offcanvas" id="sidebarLeft" role="navigation">
+
+                <div class="well sidebar-nav">
+                    <ul class="nav">
+                        <li class="active" ng-repeat="item in items"> <a ui-sref="menus.detail({ id: item.id})">{{item.itemname}}</a></li>
+                    </ul>
+                </div>
+                <!--/.well -->
+            </div>
+            <!--/span-->
+            <div class="col-xs-12 col-sm-8 col-md-10">
+                <div ui-view="detail" ></div>
+            </div>
+            <!--/row-->
+        </div>
+
+    </div>
+
+</div>
+</div>

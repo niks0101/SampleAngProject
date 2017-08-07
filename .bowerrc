@@ -1,0 +1,7 @@
+{
+  "directory": "app/components",
+  "json": "bower.json",
+  "proxy": "http://indpunsbd4intpxy01.ad.infosys.com:80",
+  "https-proxy": "http://indpunsbd4intpxy01.ad.infosys.com:80"
+
+}
